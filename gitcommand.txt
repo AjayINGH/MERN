@@ -1,1 +1,26 @@
 
+// git command =>>>
+
+C:\Users\hp\Desktop\MERN>git config --global user.name ""
+
+C:\Users\hp\Desktop\MERN>git config --global user.name "AjayINGH"
+
+C:\Users\hp\Desktop\MERN>git config --global user.email "ajaysingh945464@gmail.com"
+
+C:\Users\hp\Desktop\MERN>git config --global color.ui auto
+
+C:\Users\hp\Desktop\MERN>git init
+Initialized empty Git repository in C:/Users/hp/Desktop/MERN/.git/
+
+C:\Users\hp\Desktop\MERN>git remote add origin https://github.com/AjayINGH/MERN.git
+
+C:\Users\hp\Desktop\MERN>git pull origin main
+
+
+-----------------------------Important git command ----------------------------------------
+git status
+git add .
+git status
+git commit -m "initial commit"
+git push 
+git checkout -b "day1Branch"
