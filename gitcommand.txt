@@ -23,5 +23,14 @@ git add .
 git status
 git commit -m "initial commit"
 git push 
+
+create a new git Branch =>>>
 git checkout -b "day1Branch"
 
+to checkout another branch =>>>
+git checkout "day1Branch"
+
+To clone the pROject  =>>>
+git clone URL 
+
+==================================================================================================
