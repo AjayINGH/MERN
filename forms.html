@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Forms in html
+    </title>
+</head>
+<body>
+    <h2> Forms in HTML : </h2>
+    <form>
+     
+     <label for="fname">First Name:</label>     
+     <input type="text" name="fname" minlength="5" maxlength="12" required/>
+      <br /><br />
+       <label for="middlename">Middle Name:</label>
+     <input type="text" name="middlename" value="RK"/>
+     <br /><br />
+
+     <label for="lname">Last Name:</label>
+     <input type="text" name="lname" disabled/>
+     <br /><br />
+     
+     <label for="age">Age:</label>
+     <input type="number" name="age"/>
+      <br /><br />
+
+     <label for="email">Email:</label>
+     <input type="email" name="email" />
+     <br /><br />
+
+     <label for="date_of_joining">Date of Joining</label>
+     <input type="date"  name="date_of_joining"/>
+
+     <br /><br />
+     <label for="">
+        Password
+     </label>
+     <input type="password" />
+     <br /><br />
+     <p> Enter your shirt size</p>
+     <input type="radio"   name="shirtSize" id="small" checked/><label for="small">Medium size</label>
+     <input type="radio"   name="shirtSize" id="medium"/><label for="medium">Small size</label>
+     <input type="radio"   name="shirtSize" id="large"/><label for="large">Large size</label>
+        <br /><br />
+
+     <label for="colorCode">Please select Color of Shirt</label>
+     <input type="text" id="colorCode" />
+
+    </form>
+</body>
+</html>
